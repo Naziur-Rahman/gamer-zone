@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Header section start */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 100px 55px 100px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    gap: 20px;
+
+}
+
+.logo h2 {
+    color: #0B0223;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.span-g {
+    color: #FF42A5;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+ul>li>a {
+    color: #3C354F;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.fllow-us {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    margin-left: 30px;
+    gap: 25px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #3C354F;
+    padding: 10px;
+    margin-top: -8px;
+}
+
+/* Banner part start */
+.banner {
+    display: flex;
+    margin: 0px 100px;
+
+    /* gap: 15px; */
+
+}
+
+.banner-title {
+    color: #0B0223;
+    font-weight: 600;
+    font-size: 3rem;
+    margin-top: 100px;
+}
+
+.b-title {
+    font-size: 5rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.icon-color {
+    color: #F61C0D;
+}
+
+.b-pic {
+    width: 500px;
+    height: 500px;
+    margin-left: 250px;
+}
+
+.banner-content p {
+    margin-top: 15px;
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 60px;
+    border: 0;
+    border-radius: 48px;
+    padding: 15px 30px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+}
+
+.btn-secondary {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-left: 60px;
+    border: 0;
+    padding: 15px 30px;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+/* .banner-content {
+    background: url(../images/Group\ 14.png);
+    margin-right: -50px;
+} */
+
+/* Gamer section start */
+.gamer {
+    display: flex;
+    margin: 50px 100px 0px 100px;
+    gap: 50px;
+}
+
+.gamer-img img {
+    width: 650px;
+}
+
+.content-title {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.gamer-content {
+    text-align: right;
+}
+
+
+.content-details {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 25px;
+
+}
+
+.purpose {
+    margin-top: 25px;
+    color: #534C64;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: end;
+}
+
+.purpose-ditog {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Video Section Start */
+.video-content {
+    margin: 100px;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.video-content p {
+    text-align: center;
+    color: #534C64;
+    font-weight: 400;
+    margin: 10px 0px 50px 0px;
+}
